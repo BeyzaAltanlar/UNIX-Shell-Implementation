@@ -1,7 +1,10 @@
 # UNIX-Shell-Implementation
-Project Explanation 
+Project Explanation :
+
 you are expected to develop an interface program for a UNIX Shell using the C programming language. The name of this interface should be "osh". The osh program should take and execute shell commands. Additionally, it should support features like input/output redirection (<, >), inter-process communication via pipes (|), and managing command history.
+
 Requirements:
+
 Your program should run in an infinite loop and wait for user input. In each iteration, it should display "osh->" on the screen, and the user should enter a command to the right of this prompt.
 Commands provided as input to the program should be executed by creating a child process.
 The execvp() function should be used to execute the commands.
